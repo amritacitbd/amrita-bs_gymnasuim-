@@ -18,20 +18,24 @@
     <!-- bs min css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
-    <!-- my css -->
+    <!-- styel css -->
     <link rel="stylesheet" href="css/styel.css">
+    
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
 <!-- bs navber starts -->
   <nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
-    <div class="container">
+    <div class="container px-0">
       <a class="navbar-brand py-0" href="#">
         <img src="images/gymnasiumlogo.png" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars"></i>
       </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -87,7 +91,7 @@
     <div class="banner-item bg2">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 m-lg-auto">
             <div class="banner-text">
               <h4 class="text-uppercase position relative text-white mb-0 osw-bold fs-30">time to start</h4>
               <h1 class="text-uppercase position relative osw-bold fs-60">gymnasium</h1>
@@ -105,7 +109,7 @@
     <div class="banner-item bg3">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 ms-lg-auto">
+          <div class="col-lg-6 m-lg-auto">
             <div class="banner-text text-end">
               <h4 class="text-uppercase position relative text-white mb-0 osw-bold fs-30">time to start</h4>
               <h1 class="text-uppercase position relative osw-bold fs-60">gymnasium</h1>
@@ -129,7 +133,7 @@
 <section id="about">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 pt-0">
+      <div class="col-lg-6 pt-0 order-2 order-lg-1">
         <div class="about-image position-relative">
           <img src="images/about-image.jpg" alt="about-image" class="img-fluid w-100">
           <div class="about-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
@@ -139,10 +143,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-1 order-lg-2">
         <div class="about-text text-center">
           <header class="text-center section-head">
-            <h4 class="mb-0 text-uppercase osw-reg fs-22 " >about us</h4>
+            <h4 class="mb-0 text-uppercase osw-reg fs-22">about us</h4>
             <img src="images/about-line.png" alt="about-line">
           </header>
           <p class="mb-0 open-reg fs-14">Lorem Ipsum is simply dummy text of the printing and typesetting 
@@ -170,7 +174,7 @@
   <div class="gallery-bg">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="gallery-item position-relative">
             <img src="images/gl1.jpg" alt="gl1" class="img-fluid w-100">
             <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
@@ -189,7 +193,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="gallery-item position-relative">
             <img src="images/g2.jpg" alt="g2" class="img-fluid w-100">
             <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
@@ -208,7 +212,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-6 d-none d-lg-block">
           <div class="gallery-item position-relative">
             <img src="images/gl1.jpg" alt="gl1" class="img-fluid w-100">
             <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
@@ -241,7 +245,7 @@
   </header>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="team-item">
           <div class="card border-0">
             <div class="team-image position-relative">
@@ -269,7 +273,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="team-item">
           <div class="card border-0">
             <div class="team-image position-relative">
@@ -295,7 +299,9 @@
             </div>
           </div>
         </div>
-      </div><div class="col-lg-3">
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="team-item">
           <div class="card border-0">
             <div class="team-image position-relative">
@@ -322,7 +328,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="team-item">
           <div class="card border-0">
             <div class="team-image position-relative">
@@ -368,12 +375,12 @@
           <div class="testimonial-slider">
             <div class="testimonial-item">
               <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-2">
                   <div class="testimonial-person-image">
-                    <img src="images/testimonial1.jpg" alt="testimonial1" class="img-fluid w-100" >
+                    <img src="images/testimonial1.jpg" alt="testimonial1" >
                   </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 col-md-8 col-sm-10">
                   <div class="testimonial-person-details">
                     <h4 class="mb-0 text-uppercase text-white osw-reg fs-14">mridul chakrabarty</h4>
                     <h6 class="mb-0 text-capitalize text-white  osw-reg fs-14">gymnast</h6>
@@ -397,12 +404,12 @@
 
             <div class="testimonial-item">
               <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-2">
                   <div class="testimonial-person-image">
-                    <img src="images/testimonial2.jpg" alt="testimonial2" class="img-fluid w-100" >
+                    <img src="images/testimonial2.jpg" alt="testimonial2" >
                   </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 col-md-8 col-sm-10">
                   <div class="testimonial-person-details">
                     <h4 class="mb-0 text-uppercase text-white osw-reg fs-14">mridul chakrabarty</h4>
                     <h6 class="mb-0 text-capitalize text-white  osw-reg fs-14">gymnast</h6>
@@ -426,12 +433,12 @@
 
             <div class="testimonial-item">
               <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-2">
                   <div class="testimonial-person-image">
-                    <img src="images/testimonial1.jpg" alt="testimonial1" class="img-fluid w-100" >
+                    <img src="images/testimonial1.jpg" alt="testimonial1" >
                   </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 col-md-8 col-sm-10">
                   <div class="testimonial-person-details">
                     <h4 class="mb-0 text-uppercase text-white osw-reg fs-14">mridul chakrabarty</h4>
                     <h6 class="mb-0 text-capitalize text-white  osw-reg fs-14">gymnast</h6>
@@ -469,7 +476,7 @@
   </header>
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="membership-item text-center">
           <div class="membership-head ">
             <h4 class="mb-0 text-uppercase osw-bold fs-16">regular membership</h4>
@@ -477,7 +484,7 @@
           <div class="membership-price position-relative">
             <img src="images/member-image.jpg" alt="member-image" class="image-fluid w-100">
             <div class="member-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
-              <h3 class="mb-0 text-capitalize text-white osw-med fs-30"><span class="fs-50">$&nbsp;10</span>/ month</h3>
+              <h3 class="mb-0 text-capitalize text-white osw-med fs-50">$ 10 <span class="fs-29">/ month</span> </h3>
             </div>
           </div>
           <div class="membership-features">
@@ -494,7 +501,7 @@
           </div>
         </div>   
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="membership-item text-center">
           <div class="membership-head ">
             <h4 class="mb-0 text-uppercase osw-bold fs-16">regular membership</h4>
@@ -502,7 +509,7 @@
           <div class="membership-price position-relative">
             <img src="images/member-image.jpg" alt="member-image" class="image-fluid w-100">
             <div class="member-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
-              <h3 class="mb-0 text-capitalize text-white osw-med fs-30"><span class="fs-50">$&nbsp;10</span>/ month</h3>
+              <h3 class="mb-0 text-capitalize text-white osw-med fs-50">$ 10<span class="fs-29">/ month</span></h3>
             </div>
           </div>
           <div class="membership-features">
@@ -519,7 +526,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="membership-item text-center">
           <div class="membership-head ">
             <h4 class="mb-0 text-uppercase osw-bold fs-16">regular membership</h4>
@@ -527,7 +534,7 @@
           <div class="membership-price position-relative">
             <img src="images/member-image.jpg" alt="member-image" class="image-fluid w-100">
             <div class="member-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
-              <h3 class="mb-0 text-capitalize text-white osw-med fs-30"><span class="fs-50">$&nbsp;10</span>/ month</h3>
+              <h3 class="mb-0 text-capitalize text-white osw-med fs-50">$ 10<span class="fs-29">/ month</span></h3>
             </div>
           </div>
           <div class="membership-features">
@@ -554,32 +561,32 @@
   <section id="counter">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2">
-            <div class="counter-item">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <div class="counter-item text-sm-start text-col-end">
               <h6 class="mb-0 text-white osw-bold fs-40 counter">261</h6>
               <p class="mb-0 text-capitalize text-white osw-reg fs-16 ">cup of tea</p>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div class="counter-item text-lg-center">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <div class="counter-item text-lg-center text-md-center text-sm-center">
               <h6 class="mb-0 text-white osw-bold fs-40 counter">518</h6>
               <p class="mb-0 text-capitalize text-white osw-reg fs-16 ">award win</p>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="counter-item text-lg-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div class="counter-item text-lg-center text-md-center text-sm-end">
               <h6 class="mb-0 text-white osw-bold fs-40 counter">999</h6>
               <p class="mb-0 text-capitalize text-white osw-reg fs-16 ">happy clients</p>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div class="counter-item text-lg-center">
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div class="counter-item text-lg-center text-md-center text-sm-center">
               <h6 class="mb-0 text-white osw-bold fs-40 counter">369</h6>
               <p class="mb-0 text-capitalize text-white osw-reg fs-16 ">couse complete</p>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div class="counter-item text-lg-end">
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div class="counter-item text-lg-end text-md-center text-sm-center">
               <h6 class="mb-0 text-white osw-bold fs-40 counter">209</h6>
               <p class="mb-0 text-capitalize text-white osw-reg fs-16 ">partnet gym</p>
             </div>
@@ -994,7 +1001,7 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6">
         <div class="footer-item">
           <h5 class="mb-0 text-uppercase text-white osw-reg fs-14">opening hours</h5>
           <div class="opening-hours">
@@ -1012,7 +1019,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6">
         <div class="footer-item">
             <h5 class="mb-0 text-uppercase text-white osw-reg fs-14">twetter feed</h5>
           <div class="twitter-feed">
@@ -1028,7 +1035,7 @@
         </div>
       </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6">
       <div class="footer-item">
           <h5 class="mb-0 text-uppercase text-white osw-reg fs-14">flicker photos</h5>
         <div class="footer-gallery">
@@ -1050,7 +1057,7 @@
       </div>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6">
       <div class="footer-item">
           <h5 class="mb-0 text-uppercase text-white osw-reg fs-14">contact</h5>
         <div class="footer-contact">
@@ -1096,7 +1103,7 @@
 <div class="footer-copyright">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 m-lg-auto">
+      <div class="col-lg-4 m-lg-auto col-md-6 m-md-auto">
         <div class="copyright">
           <p class="mb-0 text-white"> Copyright &copy; All right reserved by <a href="index.html" class="text-uppercase fs-13 open-reg">gymnasium</a></p>
         </div>

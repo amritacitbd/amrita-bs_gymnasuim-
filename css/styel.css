@@ -67,6 +67,10 @@ common css end
     font-size: 22px;
 }
 
+.fs-29{
+    font-size: 29px;
+}
+
 .fs-30{
     font-size: 30px;
 }
@@ -76,7 +80,7 @@ common css end
 }
 
 .fs-40{
-    font-size: 50px;
+    font-size: 40px;
 }
 .fs-60{
     font-size: 60px;
@@ -142,12 +146,12 @@ typography css end
     background: rgba(53, 53, 53, 0.25);
     position: fixed;
     top: 30px;
-    left: 0;
-    z-index: 9999;
+    left: 0; 
+    z-index: 99999;
 }
 
 .navbar .navbar-brand{
-    background: rgba(241, 241, 241, 0.25);
+     
     padding: 10px 30px !important;
     position: absolute;
     transform: skewX(-35deg);
@@ -185,7 +189,7 @@ typography css end
 .navbar-light .navbar-nav .nav-link::before{
     content: '';
     width: 100%;
-    height: 0%;
+    height: 0% ;
     background: var(--tcolor);
     position: absolute;
     inset: 0;
@@ -207,7 +211,7 @@ typography css end
 
 .navbar-light .navbar-nav .nav-link::after{
     content: '';
-    width: 0;
+    width: 0% ;
     height:3px;
     background: var(--brand);
     position: absolute;
@@ -285,8 +289,6 @@ navber css end
     background: url(../images/banner1.jpg) no-repeat center / cover;
 
 }
-
-
 #banner .bg1 h4{
     margin-top: 15px;
 }
@@ -297,18 +299,7 @@ navber css end
 }
 
 #banner .bg1 p{
-    margin-left: 50px;
-   margin-right: 50px;
-   line-height: 18px;
-   margin-bottom: -1px;
-}
-
-#banner .bg2{
-    background: url(../images/banner2.jpg) no-repeat center / cover;
-}
-
-#banner .bg3{
-    background: url(../images/banner3.jpg) no-repeat center / cover;
+    padding: 0 50px;
 }
 
 #banner .bg1 h4::before{
@@ -371,6 +362,15 @@ navber css end
     right: 660px;
 }
 
+#banner .bg2{
+    background: url(../images/banner2.jpg) no-repeat center / cover;
+}
+
+#banner .bg3{
+    background: url(../images/banner3.jpg) no-repeat center / cover;
+}
+
+
 #banner .slick-dots{
     display: flex;
     position: absolute;
@@ -424,9 +424,11 @@ banner css end
 
 #about{
     margin-top: 80px;
-    margin-bottom: 80px;
 }
 
+#about .about-image{
+    margin-top: 40px;
+}
 
 #about .about-image .about-overlay{
     background: var(--over6);
@@ -462,6 +464,9 @@ about css end
 =================== */
 
 
+#gallery{
+    margin-top: 80px;
+}
 
 #gallery .gallery-bg{
     background: url(../images/gallery-bg.jpg) no-repeat center / cover;
@@ -619,8 +624,7 @@ team css ends
 
 
 #testimonial{
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 #testimonial .testimonial-bg{
@@ -652,9 +656,9 @@ team css ends
     margin-right: 30px;
 }
 
-#testimonial .testimonial-bg .testimonial-item:last-of-type{
+/* #testimonial .testimonial-bg .testimonial-item:last-of-type{
     margin-top: 0px;
-}
+} */
 
 #testimonial .testimonial-bg .testimonial-item .testimonial-person-text p{
     margin-right: 15px;
@@ -714,7 +718,7 @@ testimonial css ends
 
 
 #membership{
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
 #membership .membership-item{
     margin-top: 25px;
@@ -742,6 +746,10 @@ testimonial css ends
 #membership .membership-item:hover .membership-head h4{
     background: var(--brand);
     color: #fff;
+}
+
+#membership .membership-item .membership-price h3{
+    font-size: 50px;
 }
 
 #membership .membership-item .membership-features{
@@ -780,7 +788,7 @@ member css ends
 
 
 #counter{
-    margin-bottom: 80px;
+    margin-top: 60px;
 }
 
 #counter{
@@ -806,7 +814,7 @@ counter css ends
 =================== */
 
 #routine{
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
 #routine .nav-tabs .nav-item.show .nav-link, 
 #routine .nav-tabs .nav-item .nav-link:hover, 
@@ -869,7 +877,7 @@ routine css ends
 
 #brand{
     position: relative;
-    padding-bottom: 80px;
+    margin-top: 80px;
 }
 
 #brand .brand-item{
